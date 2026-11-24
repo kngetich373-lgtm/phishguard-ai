@@ -1,0 +1,51 @@
+# Environment configuration and local credentials
+.env
+.env.*
+!.env.example
+backend/.env
+backend/.env.*
+!backend/.env.example
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
+
+# Databases, local secrets, and private key material
+*.db
+*.sqlite
+*.sqlite3
+*.secret
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.crt
+*.cer
+secrets/
+credentials/
+credential-exports/
+credentials*.json
+client_secret*.json
+*.credentials
+*.cred
+*.token
+
+# User data and runtime artifacts
+uploads/
+runtime/
+logs/
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Node and build artifacts
+node_modules/
+dist/
+build/
+.vite/
+npm-debug.log*

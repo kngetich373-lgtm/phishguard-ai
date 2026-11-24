@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body { @apply bg-surface text-ink font-body; }
+
+::selection { background: #1C3AA9; color: white; }
+
+.scanline {
+  background-image: repeating-linear-gradient(
+    to bottom,
+    transparent 0px,
+    transparent 2px,
+    rgba(28,58,169,0.035) 2px,
+    rgba(28,58,169,0.035) 3px
+  );
+}

@@ -1,0 +1,18 @@
+{
+  "status": "unavailable",
+  "model_name": "HistGradientBoostingClassifier",
+  "model_version": "1.0.0",
+  "feature_count": 111,
+  "accuracy": null,
+  "precision": null,
+  "recall": null,
+  "f1_score": null,
+  "confusion_matrix": null,
+  "false_positive_rate": null,
+  "false_negative_rate": null,
+  "roc_auc": null,
+  "pr_auc": null,
+  "calibration": null,
+  "dataset_provenance": null,
+  "evaluation_limitations": "No reproducible source dataset or machine-generated evaluation artifacts are present in the repository. The existing 96.9% accuracy statement is not independently reproducible and must not be treated as verified."
+}
